@@ -29,7 +29,6 @@ li {
 .first {
   margin-right: 25%;
   color: orange;
-  /* font-size: small; */
 }
 
 /* SECOND */
@@ -206,20 +205,20 @@ i {
 
 .span_3_1, .span_3_2{
   border-radius: 10px;
-  min-height: 50%;
+  height: 50%;
   margin-bottom: 5px;
   padding: 1px;
 }
 
 .span_3 img {
-  width: 97%;
+  /* width: 97%; */
   border-radius: 10px;
 }
 
 
 .flex3 {
   display: flex;
-  max-width: 84vw;
+  max-width: 86vw;
   margin: 0 auto;
   padding: 0 4px;
   margin-bottom: 10px;
@@ -227,11 +226,22 @@ i {
 }
 
 .flex3 div {
-  min-width: 21vw;
+  display: flex;
+  min-width: 20vw;
   margin: 0 auto;
   padding: 4px;
   background-color: white;
   border-radius: 5px;
+}
+
+.flex3 h4{
+  margin: auto;
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.flex3 img{
+  margin-left: 6px;
 }
 
 .flex4 {
@@ -285,7 +295,7 @@ i {
 
   .span_2 {
     min-width: 60vw;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
   }
 }
 
@@ -302,7 +312,7 @@ i {
   }
 
   .first {
-    margin-right: 400px;
+    margin-right: 30vmin;
     color: orange;
     font-size: small;
   }
