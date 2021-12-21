@@ -219,17 +219,17 @@ i {
 
 .flex3 {
   display: flex;
-  max-width: 85vw;
+  max-width: 84vw;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 4px;
   margin-bottom: 10px;
   /* border: 2px solid black; */
 }
 
 .flex3 div {
-  min-width: 20vw;
+  min-width: 21vw;
   margin: 0 auto;
-  padding: 0.8rem;
+  padding: 4px;
   background-color: white;
   border-radius: 5px;
 }
