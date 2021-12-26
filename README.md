@@ -5,7 +5,7 @@
 
 ## MASTER BRANCH 
 * I replicated the Jumia E-commerce webpage 
-* Though not fully completed 
+* Though not fully completed and not entirely responsive 
 
 
 
