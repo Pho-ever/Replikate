@@ -251,7 +251,7 @@ i {
   padding: 5px;
   border-radius: 5px;
   background: white;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .flex4 div {
@@ -261,9 +261,15 @@ i {
   border-radius: 5px;
 }
 
+.grid {
+  padding: 1px;
+  box-shadow: 0 4px 8px 0 rgb(50%);
+  border: 2px solid green;
+
+}
 .flex4 div img {
   width: 100%;
-  height: 72%;
+  height: 35vh;
 }
 
 .prev,
@@ -281,6 +287,9 @@ i {
   right: 0;
   z-index: 100;
 }
+
+
+
 /* NAV MEDIA QUERY */
 
 @media (max-width: 990px) {
