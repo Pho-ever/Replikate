@@ -4,10 +4,10 @@
 * More updates will be added as i keep getting better 
 
 
-## MASTER BRANCH 
-* I replicated the Jumia E-commerce webpage 
+## Jumia Website  
+* I am replicating the Jumia E-commerce webpage 
 * Though not fully completed and not entirely responsive 
+* I'd be making use of CSS Grid and CSS flexbox as i make progress 
 
 
 
-![Annotation 2021-12-26 075416](https://user-images.githubusercontent.com/67446930/147401248-4a24f368-4a2b-42e2-a64d-27285ac80978.jpg)
