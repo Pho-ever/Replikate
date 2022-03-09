@@ -8,6 +8,5 @@
 * I am replicating the Jumia E-commerce webpage 
 * Though not fully completed and not entirely responsive 
 * I'd be making use of CSS Grid and CSS flexbox as i make progress 
-
-
+* 
 
