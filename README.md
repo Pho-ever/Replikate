@@ -2,7 +2,7 @@
 
 ## Overview 
 
-### The Screenchot 
+### The Screenshot 
 
 ![Annotation 2022-03-09 153411](https://user-images.githubusercontent.com/67446930/157462679-520cdb99-d244-427d-9f42-ec7e922a45ac.jpg)
 
