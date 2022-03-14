@@ -15,6 +15,7 @@
 }
 body {
   background: #eae5e1;
+  /* margin: 0 6% 0 6%; */
 }
 
 .top {
@@ -36,22 +37,28 @@ li {
   color: orange;
 }
 
+
 /* SECOND */
 
 .flex1 {
-  display: flex;
-  width: 100vw;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  width: 100%;
   background: white;
-  padding: 15px 6% 15px 6%;
+  padding: 10px 6% 10px 6%;
+  /* border: 1px solid blue; */
 }
 
 .flex1 img {
   margin-right: 10%;
+  width: 10%;
 }
 
 .flex1 input {
-  width: 45%;
-  padding: 0 10px 0 20px;
+  width: 30%;
+  padding: 5px 10px 5px 20px;
   font-size: medium;
   border-radius: 5px;
   border: 1px solid grey;
@@ -62,7 +69,7 @@ li {
   border: 1px solid #f68b1e;
   border-radius: 5px;
   font-size: small;
-  padding: 0 12px 0 12px;
+  padding: 7px 12px 5px 12px;
   margin: 0 10px 0 10px;
   color: white;
   text-transform: uppercase;
@@ -70,7 +77,6 @@ li {
 }
 
 .flex1 select {
-  /* border: 1px solid grey; */
   border: 0;
   border-radius: 10px;
   margin: 0 5px 0 5px;
@@ -80,12 +86,8 @@ li {
 }
 
 .cart{
-  display: flex;
-  /* border: 1px solid grey; */
-  border: 0;
   border-radius: 10px;
   margin: 0 5px 0 5px;
-  padding: 9px 9px 5px 5px;
   font-weight: 500;
   font-size: medium;
 }
@@ -104,14 +106,11 @@ li {
 .flex2{
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  /* background: #080522; */
   background: rgb(254, 153, 3);
   color: white;
   padding:2% 8% 2% 7%;
-  /* height: 64vh; */
   border-radius: 5px;
   grid-gap: 20px;
-
 }
 
 .section1{
@@ -120,36 +119,14 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 5px;
-  /* margin-right: 20px; */
 }
-
-/* .icons {
-  display: grid;
-  grid-template-rows: 1fr, 12;
-  color: black;
-  padding: 0 5px 0 0 ;
-  align-items: center;
-  justify-items: center;
-  padding-bottom: 10px;
-}
-
-.icon-name {
-  display: grid;
-  grid-template-rows: 1fr, 12;
-  color: black;
-  font-weight: 100;
-  font-size: small;
-  padding-top: 10px;
-  padding-left: 5px;
-
-} */
 
 .sub-section {
   display: grid;
   grid-template-rows: 1fr, 12;
   color: black;
   font-weight: 100;
-  font-size: small;
+  font-size: 13px;
 }
 
 .sub-section i {
@@ -161,12 +138,9 @@ li {
 }
 
 .section2{
-  /* background: yellow; */
   padding: 10px;
   border: 2px solid white;
   border-radius: 5px;
-  /* margin-right: 20px; */
-
 }
 
 .section3{
@@ -186,4 +160,147 @@ li {
 
 .section3-2 img {
   border-radius: 5px;
+}
+
+
+
+.flex3{
+  background: rgb(254, 153, 3);
+  display: flex;
+  padding: 0 5% 0 7%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.flex3 div {
+  padding: 10px;
+  border: 2px solid blue;
+  width: 30%;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+.flex4{
+  padding: 1% 5% 0 7%;
+  text-transform: capitalize;
+  background: rgb(254, 153, 3);
+}
+
+.flex4 .top-red{
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 5px 5px 0 0 ;
+  padding: 10px 0;
+}
+
+.flex4 .top-red div{
+  padding-left: 20px;
+}
+
+.see-all {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+
+.flex4-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-radius: 0 0 5px 5px;
+  padding: 4px;
+  background-color: white;
+}
+
+
+.flex4-2 .flex4-3{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  border: 2px solid green;
+  margin: 0 5px 0 0;
+  background: white;
+}
+
+.flex4-3 div {
+  padding: 0 0 3px 10px;
+}
+
+.flex4-3 .price {
+  font-weight: bold;
+}
+
+.flex4-3 .slashed-price {
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.flex4-3 .item-no{
+  font-size: 12px;
+  padding-bottom: 2px;
+}
+
+
+
+/* MEDIUM SCREEN SIZE  */
+@media screen and (max-width: 992px) {
+
+  .flex1 input {
+    width: 50%;
+  }
+  .flex2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+
+  .section1{
+    background: white;
+    padding: 2px 0px 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+
+  .sub-section div {
+    padding: 5px 5px 10px 0;
+    font-size: 12px;
+  }
+
+
+  .section3{
+    display: none;
+  }
+  
+  .flex1 button {
+    margin: 0 0 0 5px;
+  }
+
+  .flex1 select {
+    margin: 0 5px 0 0px;
+    padding: 0 5px 0 0px;
+    font-size: 15px;
+  }
+
+}
+
+
+
+/* SMALLER SCREEN SIZE */
+
+@media screen and (min-width: 350px) {
+  
+  .sub-section div {
+    padding: 5px 5px 10px 0;
+    /* font-size: 10px; */
+  }
+
+  .sub-section{
+    /* width: ; */
+    padding: 0 15px 0 0;
+  }
+
 }
