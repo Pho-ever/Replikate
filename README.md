@@ -1,12 +1,23 @@
-# Replikate
-* Each project is placed in its own branch
-* This Repo contains websites and webpages i cloned myself.
-* More updates will be added as i keep getting better 
+## Table of Content 
 
+## Overview 
 
-## Jumia Website  
-* I am replicating the Jumia E-commerce webpage 
-* Though not fully completed and not entirely responsive 
-* I'd be making use of CSS Grid and CSS flexbox as i make progress 
-* 
+### The Screenshot 
+
+![Annotation 2022-03-09 153411](https://user-images.githubusercontent.com/67446930/157462679-520cdb99-d244-427d-9f42-ec7e922a45ac.jpg)
+
+### Links 
+Link to access this project will be added immediately after the project has been completed.
+
+## My process
+### Built with 
+- Semantic HTML% markup 
+- CSS custom properties 
+- Flexbox 
+- CSS Grid 
+
+### What I Learned 
+I learnt how to use CSS Flexbox more appropraitely, using youtube as my major reference and the help of a friend. 
+
+### Continuied development 
 
