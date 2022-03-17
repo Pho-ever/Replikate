@@ -5,7 +5,7 @@
 ## JumiaApp 
 - The Jumia landing page is the first project i am replicating 
 - The website changes their theme from time to time 
-- So i'ld be using the template in the screenshot below 
+- So i'ld be using the template in the screenshot below
 
 
 - First screenshot 
@@ -13,4 +13,6 @@
 
 - Second screenshot 
 ![Annotation 2022-03-14 160609](https://user-images.githubusercontent.com/67446930/158201625-9f1fabb3-45c7-4a73-aa96-68bc2537629d.jpg)
+
+
 
