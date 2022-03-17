@@ -22,5 +22,5 @@ Link to access this project will be added immediately after the project has been
 ### What I Learned 
 I learnt how to use CSS Flexbox more appropraitely, using youtube as my major reference and the help of a friend. 
 
-### Continuied development 
+### Continued development 
 
