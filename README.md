@@ -5,7 +5,7 @@
 # Table of contents
 
 - [Overview](#overview)
-  - [The Project](#the-project)
+  - [The Project breakdown](#the-project-breakdown)
   - [Links](#links)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
@@ -17,7 +17,12 @@
 - [Acknowledgments](#acknowledgments)
 
 # Overview
- - ## The Project
+  - JUMIA APP
+  - THE NUNO APP
+
+
+# THE JUMIA APP 
+ - ## The Project breakdown
     ### JUMIA E-COMMERCE WEBSITE
       - Jumia is an Ecommmerce website i recreated and pushed to this repo
       - The website changes theme from time to time so i'll be recreating the one with the Orange background
@@ -35,6 +40,30 @@
   - CSS custom properties
   - Flexbox
   - CSS Grid
+
+
+# THE NUNO APP 
+- ## The Project breakdown
+    ### THE NUNO APP 
+     - The Nuno App is a non-existent project i decided to try out myself 
+     - Its a single page website 
+
+    ### The Link 
+     - Here is the Link to check how it looks like [Nuno App](https://nunnotheme.netlify.app/)
+
+    ### The Screenshot 
+    - Here is a screenshot of how it looks like at the moment 
+    ![Annotation 2022-04-03 185445](https://user-images.githubusercontent.com/67446930/161441376-1d01ec4a-b1c0-4d4d-9678-5ff385e0b5cc.jpg)
+
+  # My Process 
+    ### Built with 
+    - Semantic HTML5 markup
+    - CSS custom properties 
+    - Bootstrap 
+  
+
+
+
 
     
 
