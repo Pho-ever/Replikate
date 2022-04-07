@@ -41,6 +41,8 @@
   - Flexbox
   - CSS Grid
 
+# Current Challenge 
+  - Having difficulty trying to add the image slider 
 
 # THE NUNO APP 
 - ## The Project breakdown
