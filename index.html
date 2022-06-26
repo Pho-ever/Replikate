@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/088bbdefc6.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
-
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
     <title>Document</title>
 </head>
 
 <body>
 
-    <img class="Top-top" src="https://ng.jumia.is/cms/0-CMS-MIGRATION-2020/intel/2022/3-mar/NG_INTEL_LIVE_TOPSTRIP_PU_BG-1.gif" alt="">
+    <img class="top-top" src="https://ng.jumia.is/cms/0-CMS-MIGRATION-2020/intel/2022/3-mar/NG_INTEL_LIVE_TOPSTRIP_PU_BG-1.gif" alt="">
     <div class="top">
         <div>
             <ul>
@@ -40,11 +38,9 @@
         </button>
 
         <select name="" id="" class="login">
-            <!-- <i class="fa-regular fa-user"></i> -->
-            <!-- <i class="fa-solid fa-user"></i> -->
             <i class="fa-solid fa-user"></i>
-            <option value="" disabled selected> Account</option>
-            <option value=""><a href="">Link 1</a></option>
+            <option value="" disabled selected> Accountt</option>
+            <option value="" class="option"><a href="">Link 1</a></option>
             <option value=""><a href="">Link 2</a></option>
             <option value=""><a href="">Link 2</a></option>
             <option value=""><a href="">Link 2</a></option>
@@ -88,21 +84,19 @@
 
         <!-- IMAGE SLIDER -->
         <div class="section2">
-            <div class="slider-frame">
-                <div class="slide-images">
-                    <div class="img-container">
-                        <img src="./img/Nestle_SBD_Slider.png" alt="">
-                    </div>
-                    <div class="img-container">
-                        <img src="./img/ramadan-closet_712x384.jpg" alt="">
-                    </div>
-                    <div class="img-container">
-                        <img src="./img/ramadan-entertainment_712x384.jpg" alt="">
-                    </div>
-                    <div class="img-container">
-                        <img src="./img/stay-connected_712x384.jpg" alt="">
-                    </div>
+            <div class="swiper myswiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/ramadan-closet_712x384.jpg" /></div>
+                    <div class="swiper-slide"><img src="./img/FreeDelivery_Humanize_Slider.jpg" /></div>
+                    <div class="swiper-slide"><img src="./img/Nestle_SBD_Slider.png" /></div>
+                    <div class="swiper-slide"><img src="./img/ramadan-entertainment_712x384.jpg" /></div>
+                    <div class="swiper-slide"><img src="./img/ramadan_712x384.jpg" /></div>
+                    <div class="swiper-slide"><img src="./img/stay-connected_712x384.jpg" /></div>
+                    <div class="swiper-slide"><img src="./img/new_712x384v2.png" /></div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
         <div class="section3">
@@ -151,52 +145,12 @@
             <div>Time-left: 00h : 21m : 49s </div>
             <div class="see-all">see all </div>
         </div>
-        <!-- <div class="flex4-2">
-            <div class="flex4-3">
-                <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/95/243638/1.jpg?6370" alt="" width="100%">
-                <div class="device-name">Xiomi latest Phones...</div>
-                <div class="price">#47,900</div>
-                <div class="slashed-price">#58,275</div>
-                <div class="item-no">7 items left</div>
-            </div>
-            <div class="flex4-3">
-                <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/626048/1.jpg?5843" alt="" width="100%">
-                <div class="device-name">Costa Costa Mackerel...</div>
-                <div class="price">#47,900</div>
-                <div class="slashed-price">#58,275</div>
-                <div class="item-no">7 items left</div>
-            </div>
-            <div class="flex4-3">
-                <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/11/095728/1.jpg?8060" alt="" width="100%">
-                <div class="device-name">Power POWER OIL...</div>
-                <div class="price">#47,900</div>
-                <div class="slashed-price">#58,275</div>
-                <div class="item-no">7 items left</div>
-            </div>
-            <div class="flex4-3">
-                <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/271397/1.jpg?4901" alt="" width="100%">
-                <div class="device-name">Loyd TEA ORANGE...</div>
-                <div class="price">#47,900</div>
-                <div class="slashed-price">#58,275</div>
-                <div class="item-no">7 items left</div>
-            </div>
-            <div class="flex4-3">
-                <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/95/243638/1.jpg?6370" alt="" width="100%">
-                <div class="device-name">Xiomi latest Phones...</div>
-                <div class="price">#47,900</div>
-                <div class="slashed-price">#58,275</div>
-                <div class="item-no">7 items left</div>
-            </div>
-            <div class="flex4-3">
-                <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/95/243638/1.jpg?6370" alt="" width="100%">
-                <div class="device-name">Xiomi latest Phones...</div>
-                <div class="price">#47,900</div>
-                <div class="slashed-price">#58,275</div>
-                <div class="item-no">7 items left</div>
-            </div> -->
+
 
     </div>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
 
 </body>
 
