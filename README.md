@@ -1,6 +1,6 @@
 ### Replikate
 * Each project is placed in its own branch
-* This Repo contains websites and webpages i cloned and created myself 
+* This Repo contains websites and webpages I have been able to  clone myself 
 
 # Table of contents
 
@@ -28,21 +28,17 @@
       - The website changes theme from time to time so i'll be recreating the one with the Orange background
 
     ### The Link
-     - The Link to the real website [Jumia website](https://www.jumia.com.ng)
+     - The Link to the official website [Jumia website](https://www.jumia.com.ng)
+     - Here is the link to the replica I am building --------
 
-    ### Screenshot
-      - Here is a screenshot of what i am recreating 
-      ![Annotation 2022-03-14 160517](https://user-images.githubusercontent.com/67446930/158201517-7bb442f3-3d51-4a6b-aa9a-80e653547122.jpg)
-      
  # My Process 
   ### Built with 
   - Semantic HTML5 markup
   - CSS custom properties
   - Flexbox
   - CSS Grid
+  - Slider (A javascript library)
 
-# Current Challenge 
-  - Having difficulty trying to add the image slider 
 
 # THE NUNO APP 
 - ## The Project breakdown
@@ -52,13 +48,14 @@
 
     ### The Link 
      - Here is the Link to check how it looks like [Nuno App](https://nunnotheme.netlify.app/)
+     - Hosted with Netlify 
 
     ### The Screenshot 
     - Here is a screenshot of how it looks like at the moment 
     ![Annotation 2022-04-03 185445](https://user-images.githubusercontent.com/67446930/161441376-1d01ec4a-b1c0-4d4d-9678-5ff385e0b5cc.jpg)
 
   # My Process 
-    ### Built with 
+      ### Built with 
     - Semantic HTML5 markup
     - CSS custom properties 
     - Bootstrap 
