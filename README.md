@@ -4,9 +4,6 @@
 The Jumia E-commerce website changes their theme from time to time
 So i'ld be replicating this particular template 
 
-### The Screenshot 
-The screenshot below shows my progress level compared to the website's landing page
-
 ### Links 
 Link to access this project will be added immediately after the project has been completed.
 
