@@ -159,11 +159,10 @@ li {
 .slider-frame {
   overflow: hidden;
   height: 100%;
-  border: 2px solid red;
 }
 
 .swiper {
-  width: 50vw;
+  width: 100%;
   height: 100%;
 }
 
@@ -193,6 +192,21 @@ li {
   width: 60vw;
   height: 100%;
   object-fit: cover;
+
+}
+
+.swiper2 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide-2 {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  border: 4px solid black;
+
 }
 
 
@@ -322,6 +336,15 @@ li {
 .flex4-3 .item-no {
   font-size: 12px;
   padding-bottom: 2px;
+}
+
+.flex4-body {
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  margin-bottom: 3rem;
+  position: relative;
+
 }
 
 
